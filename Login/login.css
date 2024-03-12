@@ -23,8 +23,8 @@ body, p, button {
 }
 
 .titulo {
-    padding-top: 38px;
-    padding-bottom: 38px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 .titulo p, h1 {
@@ -40,7 +40,7 @@ body, p, button {
 .titulo h1 {
     font-size: 28px;
     font-weight: normal;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 form {
