@@ -1,0 +1,184 @@
+body, p, button {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 70%;
+}
+
+.titulo {
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.titulo p, h1 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.titulo h1 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    margin-bottom: 25px;
+}
+.email, .senha {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.senha-input {
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.senha-input img{
+    width: 24px;
+    height: 24px;
+    padding-right: 18px;
+}
+
+form input {
+    padding: 22.5px;
+    background-color: #EBEBEB;
+    border: none;
+    border-radius: 5px;
+    color: #AAAAAA;
+}
+
+.opcoes {
+    display: flex;
+    margin-top: 13px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 27px;
+}
+
+.lembrar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.lembrar p {
+    color: #1E1E1E;
+}
+
+.check {
+    background-color: #EBEBEB;
+    width: 20px;
+    height: 20px;
+}
+
+.opcoes a {
+    color: #003B6D;
+}
+
+.botoes {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.botoes button {
+    height: 60px;
+    width: 190px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: normal;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.158);
+}
+
+.cadastrar {
+    background-color: white;
+    color: #003B6D;
+    border: 1px solid #003B6D;
+}
+
+.acessar {
+    background-color: #003B6D;
+    color: white;
+    border: none;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.divisao {
+    display: flex;
+    align-items: center;
+    margin-top: 32PX;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.divisao div{
+    background-color: #AAAAAA;
+    width: 100px;
+    height: 0.1px;
+}
+
+.divisao p {
+    color: #AAAAAA;
+    font-size: 15px;
+}
+
+.conexao {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+
+.conexao div {
+    width: 190px;
+    height: 60px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.158);
+}
+
+.conexao a {
+    text-decoration: none;
+    color: #1E1E1E;
+}
