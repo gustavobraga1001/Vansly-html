@@ -73,9 +73,9 @@ form button {
 .termos {
     text-align: center;
     position: absolute;
-    top: 86vh;
-width: 300px;
-left: 17%;
+    top: 75vh;
+    width: 300px;
+    left: 15vw;
 }
 
 .termos p {
