@@ -40,6 +40,8 @@ form {
     display: flex;
     flex-direction: column;
     gap: 13px;
+    max-width: 400px;
+    box-sizing: border-box;
 }
 
 form label {
