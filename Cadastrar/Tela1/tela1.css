@@ -5,11 +5,12 @@ body, p, button, h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media (max-width: 430px) {
 .container {
     height: 95vh;
     display: flex;
     flex-direction: column;
-    padding: 0 15px;
+    margin: 0 15px;
     box-sizing: border-box;
 }
 
@@ -63,7 +64,7 @@ form button {
     padding: 0;
     border: none;
     width: 188px;
-    height: 62px;
+    height: 60px;
     background-color: #003B6D;
     border-radius: 5px;
     color: white;
@@ -86,4 +87,5 @@ form button {
 
 .termos span {
     color: #003B6D;
+}
 }
