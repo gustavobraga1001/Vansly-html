@@ -40,6 +40,8 @@ form {
     display: flex;
     flex-direction: column;
     gap: 13px;
+    width: 400px;
+    box-sizing: border-box;
 }
 
 form label {
@@ -48,9 +50,9 @@ form label {
 
 form input {
     background-color: #EBEBEB;
-    width: 87.5%;
+    width: 92.5%;
     height: 60px;
-    padding: 0 25px;
+    padding: 0 15px;
     border: none;
     border-radius: 5px;
     font-size: 15px;
